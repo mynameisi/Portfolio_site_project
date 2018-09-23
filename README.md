@@ -3,6 +3,8 @@ This project contains server side code(HTML,CSS and related resources) that buil
 
 - The css styling of the project is build on top of the [skeleton framework](http://getskeleton.com/).
 - The image popup effect is build on top of the [magnific-popup framework](http://dimsemenov.com/plugins/magnific-popup/).
+- `index.html` and `style.css` both passed the [W3C validator](https://validator.w3.org/).
+- This site is built according to the [UDacity: Build a Portfolio Site project rubric](https://review.udacity.com/#!/rubrics/45/view).
 
 ![Portfolio site](images/Portfolio_site_full.jpg)
 
@@ -22,8 +24,8 @@ contained in the `Portfolio_site_project` folder are the following content:
 2. folder:`images` images shown in this site
 3. folder:`css` this folder contains the css files for the site
    1. `style.css` my personal styling of the site
-   2. `normalize.css` & `skeleton.css` css files for the [skeleton framework](http://getskeleton.com/)
-   3. `magnific-popup.css` css file for the [magnific-popup framework](http://dimsemenov.com/plugins/magnific-popup/).
+   2. `normalize.css` & `skeleton.css` css files for the [skeleton framework](http://getskeleton.com/) UNMODIFIED.
+   3. `magnific-popup.css` css file for the [magnific-popup framework](http://dimsemenov.com/plugins/magnific-popup/) UNMODIFIED.
 4. folder:`scripts`
    1. `jquery.magnific-popup.js` javascript file for the [magnific-popup framework](http://dimsemenov.com/plugins/magnific-popup/).
 
