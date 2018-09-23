@@ -27,20 +27,19 @@ img {
   max-width: 100%;
 }
 
-.project img {
-  width: 100%;
-  height: 190px;
-  object-fit: cover;
-  border: 1px solid lightgray;
-}
-
 img:hover {
   opacity: 0.8;
 }
 
+/* urls */
+
 a {
   text-decoration: none;
   color: #2d3c49;
+}
+
+a:hover {
+  color: blue;
 }
 
 /* Typography
@@ -54,13 +53,13 @@ h2 {
   font-family: 'Quicksand', sans-serif;
 }
 
-#author_name {
+#author-name {
   font-family: 'Quicksand', sans-serif;
   font-size: 3.5em;
   letter-spacing: 1.5px;
 }
 
-#page_title {
+#page-title {
   font-family: 'Lato', sans-serif;
   font-size: 1.5em;
 }
@@ -72,13 +71,13 @@ header {
   padding-top: 3%;
 }
 
-#udacity_logo {
+#udacity-logo {
   width: 100px;
   max-width: 120px;
   height: 100px;
 }
 
-#page_title, #author_name {
+#page-title, #author-name {
   text-align: right;
   margin-left: 5%;
   margin-bottom: 0;
@@ -94,14 +93,14 @@ hr {
 /* Main Projects
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-#featured_work_title {
+#featured-work-title {
   font-size: 3em;
   margin: 1% 0 0 0;
   padding: 1%;
   color: #3f7f7c;
 }
 
-.project_name {
+.project-name {
   color: #2d3c49;
   font-size: 1.7em;
   margin-bottom: 0px;
@@ -111,18 +110,25 @@ hr {
   text-align: center;
 }
 
-a.address {
+.project-url {
   color: #7d97ad;
   font-size: 1.1em;
 }
 
-span.address {
+.url-literal {
   display: inline-block;
   white-space: nowrap;
   width: 20vw;
   max-width: 300px;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.pj-img {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  border: 1px solid lightgray;
 }
 
 /* Bio
@@ -133,18 +139,18 @@ div.bio {
   padding: 3% 2% 2% 2%;
 }
 
-.bio h2 {
+#about-me {
   color: #3f7f7c;
   margin-bottom: 2%;
 }
 
-.bio p {
+#about-me-content {
   color: white;
   margin-bottom: 1%;
   font-size: 1.5em;
 }
 
-.avatar img {
+#my-pic {
   border-radius: 15px;
   border: 5px solid white;
 }
@@ -161,7 +167,7 @@ div.bio {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 @media (max-width: 1050px) {
-  span.address {
+  .url-literal {
     display: inline-block;
     white-space: nowrap;
     width: 20vw;
@@ -171,7 +177,7 @@ div.bio {
 }
 
 @media (max-width: 549px) {
-  span.address {
+  .url-literal {
     display: inline-block;
     white-space: nowrap;
     width: 70vw;
@@ -179,36 +185,36 @@ div.bio {
     overflow: hidden;
     text-overflow: ellipsis;
   }
-  div.udacity_logo {
+  #ud-logo-div {
     display: inline-block;
     text-align: center;
   }
-  #udacity_logo {
+  #udacity-logo {
     max-width: 20vw;
     height: auto;
   }
-  #author_name {
+  #author-name {
     font-size: 10vw;
   }
-  #page_title {
+  #page-title {
     font-size: 5vw;
   }
-  #featured_work_title {
+  #featured-work-title {
     text-align: center;
     font-size: 2em;
     margin-bottom: 2%;
   }
-  .bio h2, .bio p {
+  #about-me, #about-me-content {
     text-align: center;
   }
-  div.avatar {
+  #my-pic_div {
     padding-left: 25%;
   }
-  .avatar img {
+  #my-pic {
     max-width: 60%;
     max-height: 60%;
   }
-  .project_name {
+  .project-name {
     font-size: 1.7em;
   }
 }
