@@ -174,8 +174,8 @@ div.bio {
   span.address {
     display: inline-block;
     white-space: nowrap;
-    width: 60vw;
-    max-width: 600px;
+    width: 70vw;
+    max-width: 700px;
     overflow: hidden;
     text-overflow: ellipsis;
   }
