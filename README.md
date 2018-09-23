@@ -32,7 +32,7 @@ git clone https://github.com/mynameisi/Portfolio_site_project.git
 
 Simply open the file `index.html` with a browser on your device to show the site.
 
-## Site Image
+## Site Outlook
 ![Portfolio site](images/Portfolio_site_full.jpg)
 
 ## TODO
