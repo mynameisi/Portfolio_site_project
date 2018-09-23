@@ -1,7 +1,8 @@
 # Portfolio Site Project
 This project contains server side code(HTML,CSS and related resources) that builds a responsive portfolio site. The site is layed out according to the provided [project markup spec](https://github.com/mynameisi/Portfolio_site_project/blob/master/design-mockup-portfolio.pdf). This is an assignment project from the [UDacity Full Stack Web Developer program Nanodegree Program](https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004).
 
-The css styling of the project is build on the foundation of the [skeleton framework](http://getskeleton.com/).
+- The css styling of the project is build on top of the [skeleton framework](http://getskeleton.com/).
+- The image popup effect is build on top of the [magnific-popup framework](http://dimsemenov.com/plugins/magnific-popup/).
 
 ### Prerequisites
 
@@ -19,7 +20,10 @@ contained in the `Portfolio_site_project` folder are the following content:
 2. folder:`images` images shown in this site
 3. folder:`css` this folder contains the css files for the site
    1. `style.css` my personal styling of the site
-   2. `normalize.css` & `skeleton.css` css files of the [skeleton framework](http://getskeleton.com/)
+   2. `normalize.css` & `skeleton.css` css files for the [skeleton framework](http://getskeleton.com/)
+   3. `magnific-popup.css` css file for the [magnific-popup framework](http://dimsemenov.com/plugins/magnific-popup/).
+4. folder:`scripts`
+   1. `jquery.magnific-popup.js` javascript file for the [magnific-popup framework](http://dimsemenov.com/plugins/magnific-popup/).
 
 ## Running the site
 
