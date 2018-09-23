@@ -31,6 +31,10 @@ img:hover {
   opacity: 0.8;
 }
 
+.zoom-in {
+  cursor: zoom-in;
+}
+
 /* urls */
 
 a {
@@ -122,6 +126,7 @@ hr {
   max-width: 300px;
   overflow: hidden;
   text-overflow: ellipsis;
+  margin-bottom: 3%;
 }
 
 .pj-img {
@@ -134,7 +139,7 @@ hr {
 /* Bio
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-div.bio {
+#bio-div {
   margin-top: 2%;
   padding: 3% 2% 2% 2%;
 }
@@ -207,7 +212,7 @@ div.bio {
   #about-me, #about-me-content {
     text-align: center;
   }
-  #my-pic_div {
+  #my-pic-div {
     padding-left: 25%;
   }
   #my-pic {

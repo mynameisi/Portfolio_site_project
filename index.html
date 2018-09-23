@@ -25,6 +25,11 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+
+  <!-- scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -65,21 +70,21 @@
     <h2 id="featured-work-title">Featured Work</h2>
     <div class="row">
       <div class="four columns project">
-        <a href="https://github.com/mynameisi/Portfolio_site_project"><img class="pj-img" alt="portfolio site image" src="images/Portfolio_site.gif"  width="290" height="190" /></a>
+        <a class="image-link zoom-in" href="images/Portfolio_site_full.jpg"><img class="pj-img" alt="portfolio site image" src="images/Portfolio_site.jpg"  width="290" height="190" /></a>
         <a href="https://github.com/mynameisi/Portfolio_site_project"><h3 class="project-name">Portfolio Site</h3></a>
         <a class="project-url" href="https://github.com/mynameisi/Portfolio_site_project">
           <span class="url-literal">https://github.com/mynameisi/Portfolio_site_project</span>
         </a>
       </div>
       <div class="four columns project">
-        <a href="https://github.com/mynameisi/MovieTrailerProject"><img class="pj-img" alt="movie trailer site image" src="images/movie_trailer_site.gif" width="290" height="190" /></a>
+        <a class="image-link zoom-in" href="images/movie_trailer_site.jpg"><img class="pj-img" alt="movie trailer site image" src="images/movie_trailer_site.jpg" width="290" height="190" /></a>
         <a href="https://github.com/mynameisi/MovieTrailerProject"><h3 class="project-name">Trailer Site</h3></a>
         <a class="project-url" href="https://github.com/mynameisi/MovieTrailerProject">
           <span class="url-literal">https://github.com/mynameisi/MovieTrailerProject</span>
         </a>
       </div>
       <div class="four columns project">
-        <a href="https://github.com/mynameisi/sql_project"><img class="pj-img" alt="sql project repo image" src="images/sql_project.gif"  width="290" height="190" /></a>
+        <a href="https://github.com/mynameisi/sql_project"><img class="pj-img" alt="sql project repo image" src="images/sql_project.jpg"  width="290" height="190" /></a>
         <a href="https://github.com/mynameisi/sql_project"><h3 class="project-name">Log Analysis</h3></a>
         <a class="project-url" href="https://github.com/mynameisi/sql_project">
           <span class="url-literal">https://github.com/mynameisi/sql_project</span>
@@ -92,16 +97,16 @@
   <!-- bio container
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
-    <div class="row green bio">
-      <div class="four columns" id="my-pic_div">
+    <div class="row green" id="bio-div">
+      <div class="four columns" id="my-pic-div">
         <!-- bio pic -->
-        <img src="images/william_wang.jpg" alt="author picture" id="my-pic"/>
+        <img src="images/william_wang.jpg" alt="author picture" id="my-pic" />
       </div>
       <div class="eight columns">
         <!-- bio -->
         <h2 id="about-me">About Me</h2>
-        <p id="about-me-content">My name is William Wang. This is my portfolio site project. It is
-          an assignment project from the <a href="https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004">UDacity Full Stack Web Developer program Nanodegree Program</a>. The site is laid out according to the provided <a href="https://github.com/mynameisi/Portfolio_site_project/blob/master/design-mockup-portfolio.pdf">Project markup spec</a>.
+        <p id="about-me-content">My name is William Wang. This is my portfolio site project. It is an assignment project from the <a href="https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004">UDacity Full Stack Web Developer program Nanodegree Program</a>.
+          The site is laid out according to the provided <a href="https://github.com/mynameisi/Portfolio_site_project/blob/master/design-mockup-portfolio.pdf">Project markup spec</a>.
         </p>
       </div>
     </div>
@@ -121,6 +126,37 @@
 
   <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="scripts/jquery.magnific-popup.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('.image-link').magnificPopup({
+        type: 'image',
+        image: {
+          markup: '<div class="mfp-figure">' +
+            '<div class="mfp-close"></div>' +
+            '<div class="mfp-img"></div>' +
+            '<div class="mfp-bottom-bar">' +
+            '<div class="mfp-title"></div>' +
+            '<div class="mfp-counter"></div>' +
+            '</div>' +
+            '</div>', // Popup HTML markup. `.mfp-img` div will be replaced with img tag, `.mfp-close` by close button
+
+          cursor: 'mfp-zoom-out-cur', // Class that adds zoom cursor, will be added to body. Set to null to disable zoom out cursor.
+
+          titleSrc: 'title', // Attribute of the target element that contains caption for the slide.
+          // Or the function that should return the title. For example:
+          // titleSrc: function(item) {
+          //   return item.el.attr('title') + '<small>by Marsel Van Oosten</small>';
+          // }
+
+          verticalFit: true, // Fits image in area vertically
+
+          tError: '<a href="%url%">The image</a> could not be loaded.' // Error message
+        }
+      });
+    });
+  </script>
+
 </body>
 
 </html>
