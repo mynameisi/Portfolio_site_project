@@ -3,7 +3,8 @@
 - General Content
 - Typography
 - Header & Navigation
-- Images & Media
+- Main Projects
+- Bio
 - Footer
 - Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -15,14 +16,9 @@
   padding-top: 2%;
 }
 
-/* % is for better scalling */
-
-/*.row{padding: 2% 0;}*/
-
-/* 2% top/bottom, 0 sides */
-
 .green {
   background-color: #7accc8;
+  border-radius: 15px;
 }
 
 /* img */
@@ -37,22 +33,32 @@ img:hover {
 
 a {
   text-decoration: none;
+  color: #2d3c49;
 }
 
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-/*body{
+body{
 	font-family: 'Abel',sans-serif;
-	font-size: 1.5em;
-	color: #000;
+	/*font-size: 1.5em;*/
 }
 h2{
 	font-family: 'Satisfy',cursive;
 	font-size: 3em;
-	margin: 0.67em;
 }
-*/
+
+#author_name {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 3.5em;
+  letter-spacing: 1.5px;
+}
+
+#page_title {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5em;
+}
+
 
 /* Header & Navigation
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -74,20 +80,6 @@ header {
   color: #2d3c49;
 }
 
-#author_name {
-  font-family: 'Quicksand', sans-serif;
-  font-size: 3.5em;
-  letter-spacing: 1.5px;
-  /*font-size:6vw;*/
-  /*doesn't work well enough*/
-}
-
-#page_title {
-  font-family: 'Lato', sans-serif;
-  font-size: 1.5em;
-  /*font-size:2vw;*/
-  /*doesn't work well enough*/
-}
 
 hr {
   margin: 0 0 0 0;
@@ -136,21 +128,13 @@ div.bio {
 .bio p {
   color: white;
   margin-bottom: 1%;
+  font-size: 1.5em;
 }
 
 .avatar img {
-  /*	max-width:60%;
-  	max-height:60%;*/
   border-radius: 200px;
   border: 5px solid white;
 }
-
-/*.bio span{
-	display: inline-block;
-    height: 100%;
-    vertical-align: middle;
-}
-*/
 
 /* Footer
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -170,7 +154,6 @@ div.bio {
     width: 20vw;
     overflow: hidden;
     text-overflow: ellipsis;
-    /*border: 1px solid #000000;*/
   }
 }
 
@@ -181,7 +164,6 @@ div.bio {
     width: 60vw;
     overflow: hidden;
     text-overflow: ellipsis;
-    /*border: 1px solid #000000;*/
   }
   div.udacity_logo {
     display: inline-block;
@@ -197,12 +179,9 @@ div.bio {
   #page_title {
     font-size: 5vw;
   }
-  /*	#udacity_logo{
-		display: none;
-	}*/
   #featured_work_title {
     text-align: center;
-    font-size: 2em;
+    font-size: 3em;
     margin-bottom: 2%;
   }
   .bio h2, .bio p {
