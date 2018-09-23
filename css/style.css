@@ -1,0 +1,221 @@
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+- General Content
+- Typography
+- Header & Navigation
+- Images & Media
+- Footer
+- Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* General Content
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.main {
+  padding-top: 2%;
+}
+
+/* % is for better scalling */
+
+/*.row{padding: 2% 0;}*/
+
+/* 2% top/bottom, 0 sides */
+
+.green {
+  background-color: #7accc8;
+}
+
+/* img */
+
+img {
+  max-width: 100%;
+}
+
+img:hover {
+  opacity: 0.8;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/*body{
+	font-family: 'Abel',sans-serif;
+	font-size: 1.5em;
+	color: #000;
+}
+h2{
+	font-family: 'Satisfy',cursive;
+	font-size: 3em;
+	margin: 0.67em;
+}
+*/
+
+/* Header & Navigation
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+header {
+  padding-top: 3%;
+}
+
+#udacity_logo {
+  width: 100px;
+  max-width: 120px;
+  height: 100px;
+}
+
+#page_title, #author_name {
+  text-align: right;
+  margin-left: 5%;
+  margin-bottom: 0;
+  color: #2d3c49;
+}
+
+#author_name {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 3.5em;
+  letter-spacing: 1.5px;
+  /*font-size:6vw;*/
+  /*doesn't work well enough*/
+}
+
+#page_title {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5em;
+  /*font-size:2vw;*/
+  /*doesn't work well enough*/
+}
+
+hr {
+  margin: 0 0 0 0;
+  border-width: 0;
+  border-top: 5px solid #7d97ad;
+}
+
+/* Main Projects
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#featured_work_title {
+  font-size: 3em;
+  margin: 1% 0 0 0;
+  padding: 1%;
+  color: #7d97ad;
+}
+
+.project_name {
+  color: #2d3c49;
+  font-size: 1.7em;
+  margin-bottom: 0px;
+}
+
+.project {
+  text-align: center;
+}
+
+a.address {
+  color: #7d97ad;
+  font-size: 1.1em;
+}
+
+/* Bio
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+div.bio {
+  margin-top: 2%;
+  padding: 3% 2% 2% 2%;
+}
+
+.bio h2 {
+  color: #3f7f7c;
+  margin-bottom: 2%;
+}
+
+.bio p {
+  color: white;
+  margin-bottom: 1%;
+}
+
+.avatar img {
+  /*	max-width:60%;
+  	max-height:60%;*/
+  border-radius: 200px;
+  border: 5px solid white;
+}
+
+/*.bio span{
+	display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+*/
+
+/* Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#copyright {
+  margin-top: 2%;
+  text-align: center;
+}
+
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@media (max-width: 1050px) {
+  span.address {
+    display: inline-block;
+    white-space: nowrap;
+    width: 20vw;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /*border: 1px solid #000000;*/
+  }
+}
+
+@media (max-width: 549px) {
+  span.address {
+    display: inline-block;
+    white-space: nowrap;
+    width: 60vw;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /*border: 1px solid #000000;*/
+  }
+  div.udacity_logo {
+    display: inline-block;
+    text-align: center;
+  }
+  #udacity_logo {
+    max-width: 20vw;
+    height: auto;
+  }
+  #author_name {
+    font-size: 10vw;
+  }
+  #page_title {
+    font-size: 5vw;
+  }
+  /*	#udacity_logo{
+		display: none;
+	}*/
+  #featured_work_title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 2%;
+  }
+  .bio h2, .bio p {
+    text-align: center;
+  }
+  div.avatar {
+    padding-left: 25%;
+  }
+  .avatar img {
+    max-width: 60%;
+    max-height: 60%;
+  }
+  .project_name {
+    font-size: 1.7em;
+  }
+}
