@@ -1,24 +1,6 @@
 # Portfolio Site Project
 This project contains server side code(HTML,CSS and related resources) that builds a responsive portfolio site. The site is layed out according to the provided [project markup spec](https://github.com/mynameisi/Portfolio_site_project/blob/master/design-mockup-portfolio.pdf). This is an assignment project from the [UDacity Full Stack Web Developer program Nanodegree Program](https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004).
 
-- The css styling of the project is build on top of the [skeleton framework](http://getskeleton.com/).
-- The image popup effect is build on top of the [magnific-popup framework](http://dimsemenov.com/plugins/magnific-popup/).
-- `index.html` and `style.css` both passed the [W3C validator](https://validator.w3.org/).
-- This site is built according to the [UDacity: Build a Portfolio Site project rubric](https://review.udacity.com/#!/rubrics/45/view).
-
-![Portfolio site](images/Portfolio_site_full.jpg)
-
-### Prerequisites
-
-This project is build to be responsive and is tested against multiple browsers on devices with different viewing dimentions.
-
-### Deployment
-
-clone the project from my GitHub repository
-
-```
-git clone https://github.com/mynameisi/Portfolio_site_project.git
-```
 contained in the `Portfolio_site_project` folder are the following content:
 1. `index.html` the main file to be opened to show the site
 2. folder:`images` images shown in this site
@@ -29,9 +11,29 @@ contained in the `Portfolio_site_project` folder are the following content:
 4. folder:`scripts`
    1. `jquery.magnific-popup.js` javascript file for the [magnific-popup framework](http://dimsemenov.com/plugins/magnific-popup/).
 
+- The css styling of the project is build on top of the [skeleton framework](http://getskeleton.com/).
+- The image popup effect is build on top of the [magnific-popup framework](http://dimsemenov.com/plugins/magnific-popup/).
+- `index.html` and `style.css` both passed the [W3C validator](https://validator.w3.org/).
+- This site is built according to the [UDacity: Build a Portfolio Site project rubric](https://review.udacity.com/#!/rubrics/45/view).
+
+## Prerequisites
+
+This project is build to be responsive and is tested against multiple browsers on devices with different viewing dimentions.
+
+## Deployment
+
+clone the project from my GitHub repository
+
+```
+git clone https://github.com/mynameisi/Portfolio_site_project.git
+```
+
 ## Running the site
 
 Simply open the file `index.html` with a browser on your device to show the site.
+
+## Site Image
+![Portfolio site](images/Portfolio_site_full.jpg)
 
 ## TODO
 
