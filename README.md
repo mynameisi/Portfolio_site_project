@@ -1,9 +1,10 @@
 # Portfolio Site Project
-![Portfolio site](images/Portfolio_site_full.jpg)
 This project contains server side code(HTML,CSS and related resources) that builds a responsive portfolio site. The site is layed out according to the provided [project markup spec](https://github.com/mynameisi/Portfolio_site_project/blob/master/design-mockup-portfolio.pdf). This is an assignment project from the [UDacity Full Stack Web Developer program Nanodegree Program](https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd004).
 
 - The css styling of the project is build on top of the [skeleton framework](http://getskeleton.com/).
 - The image popup effect is build on top of the [magnific-popup framework](http://dimsemenov.com/plugins/magnific-popup/).
+
+![Portfolio site](images/Portfolio_site_full.jpg)
 
 ### Prerequisites
 
